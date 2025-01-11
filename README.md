@@ -3,10 +3,14 @@
  
 # Projeto Lacrei Saúde - Desafio de Quality Assurance
 
-Este repositório documenta a execução do Desafio de Quality Assurance proposto pela Lacrei Saúde. 
+Este repositório documenta o Desafio de Quality Assurance para a plataforma Lacrei Saúde, focado em validar a qualidade e confiabilidade das principais funcionalidades do sistema. Foram aplicados testes manuais e automatizados com Cypress e Cucumber, garantindo cobertura e eficiência. O processo de integração contínua com GitHub Actions assegura a execução dos testes a cada alteração no código.
+
+Utilizando ferramentas como Notion para documentação e JMeter para testes de desempenho, o projeto ajudou a identificar pontos de melhoria.
 O objetivo é avaliar habilidades em testes manuais e automatizados, documentação e análise crítica de sistemas, garantindo a qualidade e a confiabilidade da plataforma Lacrei Saúde.
 
- [**🔗 Link do desafio**](https://lacrei-saude.notion.site/Desafio-Quality-Assurance-de16f470007841aba5c564e5dd543943)
+ - [**🔗 Link do desafio**](https://lacrei-saude.notion.site/Desafio-Quality-Assurance-de16f470007841aba5c564e5dd543943)
+ - [**🔗 Link documentação Notion**](https://carol-protasio.notion.site/Desafio-T-cnico-Lacrei-Sa-de-174b6a6099cc803db274ef32ca7d3691)
+ 
  
 
 ## 🛠️ Ferramentas Utilizadas
@@ -132,7 +136,7 @@ O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, o
 
 ## ✅ Conclusão
 Através deste projeto, foram aplicadas práticas de Quality Assurance para assegurar a qualidade das principais funcionalidades da plataforma Lacrei Saúde. 
-Os testes manuais e automatizados, juntamente com a documentação detalhada nesse repositório e na ferramenta Notion - [Desafio Lacrei](https://carol-protasio.notion.site/Desafio-T-cnico-Lacrei-Sa-de-174b6a6099cc803db274ef32ca7d3691)
+Foram realizados testes manuais e automatizados, e a documentação detalhada está disponível tanto neste repositório quanto no Notion - [Desafio Lacrei](https://carol-protasio.notion.site/Desafio-T-cnico-Lacrei-Sa-de-174b6a6099cc803db274ef32ca7d3691)
 
 
 
