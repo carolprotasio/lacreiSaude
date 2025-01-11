@@ -1,11 +1,15 @@
-# Projeto Lacrei Saúde - Desafio de Quality Assurance
 
-## Sobre
+ <img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/lacrei.webp" alt="Teste Cypress" height="300" width="1000"/>  
+ 
+# Projeto Lacrei Saúde - Desafio de Quality Assurance
 
 Este repositório documenta a execução do Desafio de Quality Assurance proposto pela Lacrei Saúde. 
 O objetivo é avaliar habilidades em testes manuais e automatizados, documentação e análise crítica de sistemas, garantindo a qualidade e a confiabilidade da plataforma Lacrei Saúde.
 
-## Ferramentas Utilizadas
+ [**🔗 Link do desafio**](https://lacrei-saude.notion.site/Desafio-Quality-Assurance-de16f470007841aba5c564e5dd543943)
+ 
+
+## 🛠️ Ferramentas Utilizadas
 
 - **Cucumber**: Framework para escrita de testes em linguagem Gherkin
 - **Cypress**: Ferramenta de automação de testes end-to-end.
@@ -27,6 +31,9 @@ Given que [contexto inicial]
 When [ação executada]
 Then [resultado esperado]
 ```
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/cy_all_tests.png" alt="Teste Cypress" width="700"/>  
+
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/cli_all_tests.png" alt="Teste Cypress" width="700"/> 
 
 ### 🧪**Cenário: Cadastro da pessoa usuária:**
 
@@ -67,27 +74,27 @@ Then [resultado esperado]
   * Resultado cypress
  <img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/cy_edicao_feature.png" alt="Teste Cypress" width="700"/>  
 
-### 🧪**Cenário: Esquecer senha e resetar:**
+### 🧪**Cenário: Esquecer senha:**
 
-[**🔍** Casos de testes: **Esquecer senha e resetar**](https://www.notion.so/Casos-de-testes-Esquecer-senha-e-resetar-177b6a6099cc8096b9fce478aab37a2b?pvs=21)
-* Resultado cypress
+ *  CT-001 => Esquecer senha e solicitar redefinição de pessoa cadastrada
+ *  CT-002 => Esquecer senha e solicitar Reenvio do link
+ *  CT-003 => Esquecer senha de e-mail cadastrado
+ *  CT-004 => Esquecer senha de e-mail não cadastrado
+ *  CT-005 => Esquecer senha e voltar a tela de login
+
+ - [**🔍** Casos de testes: **Esquecer senha e resetar**](https://www.notion.so/Casos-de-testes-Esquecer-senha-e-resetar-177b6a6099cc8096b9fce478aab37a2b?pvs=21)
+   
+ * Resultado cypress
  <img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/cy_esquecer_feature.png" alt="Teste Cypress" width="700"/>  
 
 
-## GitHub Actions
+## 🔁 GitHub Actions
 
-O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, os testes automatizados são executados, garantindo que novas alterações não quebrem funcionalidades existentes. O fluxo de trabalho está definido no arquivo `.github/workflows/test.yml`.
+O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, os testes automatizados são executados, garantindo que novas alterações não quebrem funcionalidades existentes. O fluxo de trabalho está definido no arquivo `.github/workflows/cypress-test.yml`.
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/github_action.png" alt="Teste Cypress" width="700"/> 
 
-## Relatórios
 
-Os relatórios detalhados de cada tipo de teste estão disponíveis nos respectivos diretórios dentro do repositório:
-
-- **Testes Não Funcionais**:
-  - [Relatório de Desempenho](testsnon-functional/performance/README.md)
-  - [Relatório de Acessibilidade](testsnon-functional/accessibility/README.md)
-  - [Relatório de Responsividade](testsnon-functional/responsiveness/README.md)
-
-## Instalação e Execução dos Testes
+## 🔧 Instalação e Execução dos Testes
 
 1. **Pré-requisitos**:
    - Node.js instalado.
@@ -110,7 +117,7 @@ Os relatórios detalhados de cada tipo de teste estão disponíveis nos respecti
    ```bash
     npx cypress open
    ```
-## Relatórios
+## 📝 Relatórios
 
 [💡Sugestões de Melhorias ](https://www.notion.so/Sugest-es-de-Melhorias-175b6a6099cc807285ddd9b7e4a5d16e?pvs=21) 
 
@@ -120,9 +127,10 @@ Os relatórios detalhados de cada tipo de teste estão disponíveis nos respecti
 
 [📈 Teste de Desempenho](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/desempenho)
 
+[♿️ Relatório de Acessibilidade](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/acessibilidade)
 
 
-## Conclusão
+## ✅ Conclusão
 Através deste projeto, foram aplicadas práticas de Quality Assurance para assegurar a qualidade das principais funcionalidades da plataforma Lacrei Saúde. 
 Os testes manuais e automatizados, juntamente com a documentação detalhada nesse repositório e na ferramenta Notion - [Desafio Lacrei](https://carol-protasio.notion.site/Desafio-T-cnico-Lacrei-Sa-de-174b6a6099cc803db274ef32ca7d3691)
 
