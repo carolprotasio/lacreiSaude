@@ -32,7 +32,8 @@ Foi observada uma possível melhoria relacionada ao ícone da ferramenta **vLibr
 Essa melhoria ajudaria a otimizar a usabilidade, principalmente para usuários que não estão interagindo com o vLibras, mas que podem se deparar com o ícone bloqueando parte do conteúdo.
 
 ## 4. Captura de Tela
-![]()
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/accessibility_general.png" alt="imagem resultado" width="700"/>
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/accessibility_1.png" alt="imagem resultado 2" width="700"/>
 
 ## 5. Conclusão
 Com base no relatório do **Lighthouse**, a aplicação apresentou uma excelente pontuação de acessibilidade.
