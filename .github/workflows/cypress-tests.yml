@@ -1,39 +1,46 @@
 name: Cypress Tests
 
-on: 
- workflow_dispatch:
+on:
+  workflow_dispatch:
 
-jobs: 
+jobs:
   cypress-electron-tests:
     runs-on: ubuntu-latest
     container:
-     image: cypress/browsers:node-20.17.0-chrome-128.0.6613.119-1-ff-130.0-edge-128.0.2739.63-1
-     options: --user 1001
-    steps: 
-     - name: get code
-       uses: actions/checkout@v4.2.0
+      image: cypress/browsers:node-20.17.0-chrome-128.0.6613.119-1-ff-130.0-edge-128.0.2739.63-1
+      options: --user 1001
+    steps:
+      - name: Get code
+        uses: actions/checkout@v4
 
-     - name: Install dependencies
-       run: yarn install
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn --check-files  # Verifica se os arquivos estão corretos
 
-     - name: Run E2E tests
-       run: node runner-electron.js
-   
+      - name: Show environment variables
+        run: printenv  # Exibe variáveis de ambiente para depuração
+
+      - name: Run E2E tests
+        run: node runner-electron.js
+
   cypress-chrome-tests:
     needs: cypress-electron-tests
     runs-on: ubuntu-latest
     container:
-     image: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
-     options: --user 1001
-    steps: 
-     - name: get code
-       uses: actions/checkout@v4.2.0
+      image: cypress/browsers:node-20.17.0-chrome-129.0.6668.70-1-ff-130.0.1-edge-129.0.2792.52-1
+      options: --user 1001
+    steps:
+      - name: Get code
+        uses: actions/checkout@v4
 
-     - name: Install dependencies
-       run: yarn install
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn --check-files  # Verifica se os arquivos estão corretos
 
-     - name: Run E2E tests
-       run: node runner-chrome.js
-  
+      - name: Show environment variables
+        run: printenv  # Exibe variáveis de ambiente para depuração
 
- 
+      - name: Run E2E tests
+        run: node runner-chrome.js
