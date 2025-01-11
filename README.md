@@ -130,7 +130,7 @@ O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, o
 
 [📱Relatório de Responsividade](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/responsividade) 
 
-[📈 Teste de Desempenho](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/desempenho)
+[📈 Relatório de Desempenho](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/desempenho)
 
 [♿️ Relatório de Acessibilidade](https://github.com/carolprotasio/lacreiSaude/tree/main/tests-non-functional/acessibilidade)
 
