@@ -28,10 +28,10 @@ O objetivo é avaliar habilidades em testes manuais e automatizados, documentaç
 Cada cenário foi dividido em etapas específicas, abrangendo cenários funcionais e exploratórios. 
 **Para cada cenário, foi desenvolvido 5 casos de teste**, executados manualmente e automatizados para maximizar a cobertura e garantir a detecção de inconsistências ou falhas.
 
- - Todos os casos de teste foram escritos utilizando a linguagem Gherkin, que permite a descrição clara e concisa dos comportamentos esperados, facilitando a comunicação entre as partes interessadas e a automação dos testes. A estrutura dos testes seguiu o padrão:
+ - Todos os casos de teste foram escritos utilizando a linguagem Gherkin, a estrutura dos testes seguiu o padrão:
 
 ```gherkin
-Given que [contexto inicial]
+Given [contexto inicial]
 When [ação executada]
 Then [resultado esperado]
 ```
@@ -95,6 +95,7 @@ Then [resultado esperado]
 ## 🔁 GitHub Actions
 
 O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, os testes automatizados são executados, garantindo que novas alterações não quebrem funcionalidades existentes. O fluxo de trabalho está definido no arquivo `.github/workflows/cypress-test.yml`.
+
 <img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/github_action.png" alt="Teste Cypress" width="700"/> 
 
 
@@ -113,11 +114,11 @@ O projeto utiliza o GitHub Actions para automação dos testes. A cada commit, o
    npm install
    ```
 4. **Execução dos testes**:
-   * modo headless:
+   - **modo headless:**
    ```bash
    npm run test
    ```
-  * modo interativo:
+   - **modo interativo:**
    ```bash
     npx cypress open
    ```
