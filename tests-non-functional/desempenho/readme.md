@@ -1,4 +1,4 @@
-# Teste de Desempenho
+# Relatório de Desempenho
 
 ### Configuração do Cenário
 
