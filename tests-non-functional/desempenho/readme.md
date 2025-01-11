@@ -34,4 +34,8 @@
 - **Gargalos**: Não foram identificados gargalos evidentes com o volume de 25 usuários simultâneos no endpoint testado. Contudo, testes com uma carga maior podem revelar limitações.
 
 ### **Captura de Tela**
-![Imagem de captura](#)
+* Resultados
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/jmeter_result1.png" alt="web" width="700"/>
+
+<img src="https://github.com/carolprotasio/lacreiSaude/blob/main/cypress/fixtures/assets/jmeter_trans_sec.png" alt="web" width="700"/>
+
